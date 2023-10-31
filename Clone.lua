@@ -1,7 +1,7 @@
 -- Instances:
 local Exploit = {}
 
-local function Exploit:Execute()
+function Exploit:ShowInterface()
 local SynapseXreal = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local bar = Instance.new("Frame")
