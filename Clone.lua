@@ -330,17 +330,17 @@ Attach.MouseButton1Click:Connect(function()
     end
     if injected == false then
         title.Text = shitLabel .. " (checking...)"
-        wait(0.1)
+        wait(math.random(1,10))
         title.Text = shitLabel .. " (injecting...)"
-        wait(1.5)
+        wait(math.random(1,10))
         title.Text = shitLabel .. " (checking whitelist...)"
-        wait(0.8)
+        wait(math.random(1,10))
         title.Text = shitLabel .. " (scanning...)"
-        wait(0.3)
+        wait(math.random(1,10))
         title.Text = shitLabel .. " (ready!)"
-        wait(0.5)
-        title.Text = shitLabel
         injected = true
+        wait(math.random(1,10))
+        title.Text = shitLabel
     end
 end)
 
